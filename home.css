@@ -1,0 +1,337 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#navigation_bar {
+    position: fixed;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+}
+
+#nav_icon {
+    height: 36px;
+    width: 38.34px;
+    padding: 8px 16px;
+}
+
+.nav_button {
+    font: 1em sans-serif;
+    padding: 16px;
+    color: black;
+    background-color: white;
+}
+
+.nav_button:hover {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar_search_container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: green;
+    border-radius: 50px;
+}
+
+#search_bar {
+    width: 120px;
+    border: hidden;
+}
+
+#theme_toggle {
+    height: 14px;
+    width: 14px;
+    margin: 20px 0px 18px 10px;
+}
+
+.right_nav_button {
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.right_nav_button:hover {
+    background-color: rgb(214, 219, 219);
+    cursor: pointer;
+}
+
+
+#goal_icon {
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+#tag_icon {
+    height: 14px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+#cart_icon {
+    height: 16px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+#signup_button {
+    width: 90px;
+    color: white;
+    background-color: #04AA6D;
+    margin: 10px 0px 10px 10px;
+    border-radius: 20px
+}
+
+#login_button {
+    width: 90px;
+    color: black;
+    background-color: #d9eee1;
+    margin: 10px 10px 10px 0px;
+    border-radius: 20px;
+}
+
+#signup_button:hover {
+    cursor: pointer;
+    background-color: darkgreen
+}
+
+
+#login_button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: darkgreen
+}
+
+
+
+#tech_menubar {
+    position: fixed;
+    top: 56px;
+    height: 32.5px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    scrollbar-width: none;
+    background-color: #282A35;
+}
+
+.tech_menu_item {
+    color: #f1f1f1;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+.tech_menu_item:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#outer_space_division {
+    height: 474px;
+    width: 100%;
+    background-image: url(./images/background_in_space.gif);
+}
+
+#first_line {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#second_line {
+    color: #fff4a3;
+    font-size: 23px;
+    margin: 30px 0px 10px;
+    text-align: center;
+}
+
+#third_line {
+    color: white;
+    margin: 40px 150px 0px 150px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third_line_input {
+    background-color: white;
+    height: 45px;
+    width: 420px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 10px 10px 25px;
+}
+
+#third_line_button {
+    color: white;
+    font-size: 17px;
+    height: 45px;
+    width: 100px;
+    background-color: #04AA6D;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+#fourth_line {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 30px 0px 10px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#fourth_line:hover {
+    color: #fff4a3;
+    cursor: pointer;
+}
+
+.tech_section {
+    height: 575px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.name_tag {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+}
+
+.description_tag {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 15px 0px;
+}
+
+.learn_button {
+    width: 200px;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.learn_button:hover {
+    cursor: pointer;
+}
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    background-color: #e7e9eb;
+}
+
+.example_tag {
+    font-size: 21px;
+    font-weight: 550;
+    padding: 30px 0px 25px 15px;
+}
+
+.code_container {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 0px 20px 0px 20px;
+    padding-left: 15px;
+    border-left: solid;
+    border-left-color: #04AA6D;
+    border-left-width: 4px;
+}
+
+#tech_section_with_learn_button {
+    background-color: #282A35;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.leran_tech {
+    width: 615.99px;
+    height: 264.5px;
+    display: flex;
+    margin: 25px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*flex-basis: 40%; */
+
+}
+
+.tech_name {
+    font-size: 45px;
+    margin: 10px 0px;
+}
+
+.tech_description {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.tech_learn_button {
+    font-size: 18px;
+    padding: 8px 16px;
+    width: 200px;
+    background-color: #282a35;
+    color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.tech_learn_button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#tech_section_by_name_only {
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tech_section_button {
+    height: 110px;
+    width: 266px;
+    font-size: 30px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 40px
+}
